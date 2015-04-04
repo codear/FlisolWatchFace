@@ -56,8 +56,6 @@ public abstract class WatchFaceActivity extends Activity implements DisplayManag
                 onScreenOff();
                 break;
             default:
-                //  Not really sure what to so about Display.STATE_UNKNOWN, so
-                //  we'll treat it as if the screen is normal.
                 onScreenAwake();
                 break;
         }
